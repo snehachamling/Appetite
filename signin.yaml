@@ -1,0 +1,18 @@
+appId: com.tj.appetite
+---
+- launchApp
+- tapOn: " Sign In"
+- tapOn: "Use Phone Number"
+- tapOn:
+    point: 12%,33%
+- tapOn:
+    point: 39%,12%    
+- inputText: "Nepal"
+- tapOn: "🇳🇵\nNepal\n+977"
+- tapOn:
+    point: 40%,33%   
+- inputText: "9813580350"
+- tapOn: "Next"
+- tapOn: "Enter password"
+- inputText: "Test@1234"
+- tapOn: "Sign In"
