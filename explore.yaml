@@ -1,0 +1,49 @@
+appId: com.tj.appetite
+---
+# - clearState
+# - runFlow: signin.yaml
+- launchApp
+- tapOn: "Nav explore\nExplore"
+# Select anytime
+- tapOn: "2 • Today • 7:00 PM"
+- tapOn: "Search anytime"
+# Selecting the guests, time and date.
+- tapOn: "anytime"
+- tapOn: "3" 
+# Selecting date
+- tapOn: "Date\nToday"
+- tapOn:
+    point: "61%,69%"
+# Selecting time
+- tapOn:
+    point: "50%,79%"
+- tapOn:
+    point: "75%,79%"
+- tapOn: "Search"
+# My area
+- tapOn: "my area"
+- tapOn: "Search for location here"
+- inputText: "Greater London"
+- tapOn:
+    point: "50%,22%"
+- tapOn: "Done"
+# Any cuisine
+- tapOn: "any cuisine"
+- tapOn: "Search for cuisine here"
+- inputText: "Pasta"
+- tapOn: "Pasta"
+- eraseText
+- tapOn: "American"
+# - scrollUntilVisible:
+#     text: "Vegan"
+# - tapOn: "Vegan"
+- tapOn: "Done"
+# Any vibe
+- tapOn: "any vibe"
+- tapOn: "Search for vibe here"
+- inputText: "Luxury"
+- tapOn: "Luxury"
+- eraseText
+- tapOn: "Authentic"
+- tapOn: "Cosy"
+- tapOn: "Done"
