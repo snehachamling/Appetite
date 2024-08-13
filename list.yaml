@@ -1,0 +1,36 @@
+appId: com.tj.appetite
+---
+- launchApp
+- runFlow: signin.yaml
+- tapOn: "Button plus.svg"
+- tapOn: "List"
+# # Import from Google Maps
+- tapOn: "Import from Google Maps"
+# - inputText: "https://g.co/kgs/wubbexA"
+- tapOn: "Paste"
+- tapOn: "Import"
+
+# # Copy/Paste a list
+# - tapOn: "Copy/Paste a list"
+# - tapOn: "Name of the list"
+# - inputText: "Copy and Paste List"
+# - tapOn: "Paste note text here"
+
+# Start from scratch
+# - tapOn: "Start from scratch"
+# - tapOn: "My List #1"
+# - inputText: "New List"
+# - tapOn:
+#     point: "50%,36%"
+# - inputText: "New List Description details"
+# - tapOn: "Continue"
+# # Select restaurants
+# - tapOn:
+#     point: "87%,37%"
+# - tapOn:
+#     point: "87%,52%"
+# - tapOn:
+#     point: "87%,67%"
+# - tapOn: "Next"
+# - tapOn:
+#     point: "89%,7%"

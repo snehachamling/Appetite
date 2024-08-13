@@ -1,0 +1,11 @@
+appId: com.tj.appetite
+---
+# - clearState
+# - launchApp
+- tapOn:
+    point: "75%,8%"
+- tapOn:
+    point: "93%,7%"
+- tapOn: "Settings"
+- tapOn: "Logout"
+- tapOn: "Confirm"

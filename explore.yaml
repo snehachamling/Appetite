@@ -2,95 +2,95 @@ appId: com.tj.appetite
 ---
 # - clearState
 - launchApp
-# - runFlow: signin.yaml
+- runFlow: signin.yaml
 - tapOn: "Nav explore\nExplore"
-# # Select anytime
-# - tapOn: "2 • Today • 7:00 PM"
-# - tapOn: "Search anytime"
-# # Selecting the guests, time and date.
-# - tapOn: "anytime"
-# - tapOn: "3" 
-# # Selecting date
-# - tapOn: "Date\nToday"
-# - tapOn:
-#     point: "61%,69%"
-# # Selecting time
-# - tapOn:
-#     point: "50%,79%"
-# - tapOn:
-#     point: "75%,79%"
-# - tapOn: "Search"
+# Select anytime
+- tapOn: "2 • Today • 7:00 PM"
+- tapOn: "Search anytime"
+# Selecting the guests, time and date.
+- tapOn: "anytime"
+- tapOn: "3" 
+# Selecting date
+- tapOn: "Date\nToday"
+- tapOn:
+    point: "61%,69%"
+# Selecting time
+- tapOn:
+    point: "50%,79%"
+- tapOn:
+    point: "75%,79%"
+- tapOn: "Search"
 # My area
 - tapOn: "my area"
 - tapOn: "Search for location here"
-- inputText: "Greater London"
+- inputText: "Soho"
 - tapOn:
     point: "50%,22%"
 - tapOn: "Done"
-# # Any cuisine
-# - tapOn: "any cuisine"
-# - tapOn: "Search for cuisine here"
-# - inputText: "Seafood"
-# - tapOn:
-#     point: "15%,24%"
-# - eraseText
-# - tapOn: "British"
-# - scrollUntilVisible:
-#     element: "Vegan"
-# - tapOn: "Vegan"
-# - tapOn: "Dim Sum"
-# - tapOn: "Done"
-# # Any vibe
-# - tapOn: "any vibe"
-# - tapOn: "Search for vibe here"
-# - inputText: "Chic"
-# - tapOn:
-#     point: "15%,24%"
-# - eraseText
-# - tapOn: "Candlelit"
-# - scrollUntilVisible:
-#     element: "Old School"
-# - tapOn: "Done"
-# View All Screen
-- tapOn: "See all"
-- swipe:
-    direction: DOWN
-# # Book restaurant from list view
-# - tapOn:
-#     point: "50%,66%"
-# - tapOn: "Book Now"
-# - tapOn:
-#     point: "50%,96%" 
-# - tapOn:
-#     point: "91%,7%"
-# - tapOn: "Nav explore\nExplore"
-# - tapOn: "Map View"
-# - tapOn:
-#     point: "71%,72%"
-# - tapOn:
-#     point: "6%,8%"
-# # Change the dates
-# - tapOn:
-#     point: "50%,13%"
-# - tapOn: "2" 
-# # Date
-# - tapOn:
-#     point: "50%,73%"
-# # Time
-# - tapOn:
-#     point: "50%,79%"
-# - tapOn: "Search"
-# - tapOn: "Filter"
-# - tapOn: "Soho"
-# # clear filter
-# - tapOn:
-#     point: "86%,51%"
-# - tapOn: "Nepali"
-# - tapOn: "See more..."
-# - tapOn: "Seafood"
+# Any cuisine
+- tapOn: "any cuisine"
+- tapOn: "Search for cuisine here"
+- inputText: "Seafood"
+- tapOn:
+    point: "15%,24%"
+- eraseText
+- tapOn: "British"
+- scrollUntilVisible:
+    element: "Vegan"
+- tapOn: "Vegan"
+- tapOn: "Dim Sum"
+- tapOn: "Done"
+# Any vibe
+- tapOn: "any vibe"
+- tapOn: "Search for vibe here"
+- inputText: "Chic"
+- tapOn:
+    point: "15%,24%"
+- eraseText
+- tapOn: "Candlelit"
+- scrollUntilVisible:
+    element: "Old School"
+- tapOn: "Done"
+# # View All Screen
+# - tapOn: "See all"
+# - swipe:
+#     direction: DOWN
+# Book restaurant from list view
+- tapOn:
+    point: "50%,66%"
+- tapOn: "Book Now"
+- tapOn:
+    point: "50%,96%" 
+- tapOn:
+    point: "91%,7%"
+- tapOn: "Nav explore\nExplore"
+- tapOn: "Map View"
+- tapOn:
+    point: "71%,72%"
+- tapOn:
+    point: "6%,8%"
+# Change the dates
+- tapOn:
+    point: "50%,13%"
+- tapOn: "2" 
+# Date
+- tapOn:
+    point: "50%,73%"
+# Time
+- tapOn:
+    point: "50%,79%"
+- tapOn: "Search"
+- tapOn: "Filter"
+- tapOn: "Soho"
+# clear filter
+- tapOn:
+    point: "86%,51%"
+- tapOn: "Nepali"
+- tapOn: "See more..."
+- tapOn: "Seafood"
 # - scrollUntilVisible:
 #     element: "German"
 # - tapOn: "German"
-# - tapOn: "Done"
+- tapOn: "Done"
 # - scrollUntilVisible:
 #     direction: DOWN

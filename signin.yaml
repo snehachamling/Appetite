@@ -1,5 +1,6 @@
 appId: com.tj.appetite
 ---
+- clearState
 - launchApp
 - tapOn: " Sign In"
 - tapOn: "Use Phone Number"
