@@ -1,0 +1,26 @@
+appId: com.tj.appetite
+---
+# - clearState
+# - launchApp
+# - runFlow: signin.yaml
+- tapOn:
+    point: 91%,7%
+# List
+- tapOn: "List
+
+    Create from scratch or import from Google maps."
+- back
+- tapOn:
+    point: 91%,7%
+# To Try
+- tapOn: "To Try
+
+    Found somewhere new? Save it to try later!"
+- back
+- tapOn:
+    point: 91%,7%
+# Been To
+- tapOn: "Been To
+
+    Mark a place as been & leave a review."
+- back

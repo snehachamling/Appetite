@@ -1,13 +1,14 @@
 appId: com.tj.appetite
 ---
 - launchApp
-- runFlow: signin.yaml
+# - runFlow: signin.yaml
 - tapOn: "Button plus.svg"
 - tapOn: "List"
-# # Import from Google Maps
+# Import from Google Maps
 - tapOn: "Import from Google Maps"
-# - inputText: "https://g.co/kgs/wubbexA"
-- tapOn: "Paste"
+- tapOn: "Paste google map link here."
+- inputText: "https://maps.app.goo.gl/dCabFUqjpsdrcR7WA?g_st=ac"
+# - tapOn: "Paste"
 - tapOn: "Import"
 
 # # Copy/Paste a list
@@ -15,8 +16,10 @@ appId: com.tj.appetite
 # - tapOn: "Name of the list"
 # - inputText: "Copy and Paste List"
 # - tapOn: "Paste note text here"
+# - inputText: "Tasneem's Kings Kitchen"
+# - tapOn: "Import"
 
-# Start from scratch
+# # Start from scratch
 # - tapOn: "Start from scratch"
 # - tapOn: "My List #1"
 # - inputText: "New List"
@@ -26,11 +29,13 @@ appId: com.tj.appetite
 # - tapOn: "Continue"
 # # Select restaurants
 # - tapOn:
-#     point: "87%,37%"
+#     point: "87%,32%"
 # - tapOn:
 #     point: "87%,52%"
 # - tapOn:
-#     point: "87%,67%"
+#     point: "87%,62%"
+# - tapOn:
+#     point: "87%,78%"
 # - tapOn: "Next"
 # - tapOn:
 #     point: "89%,7%"
