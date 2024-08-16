@@ -3,24 +3,36 @@ appId: com.tj.appetite
 # - clearState
 # - launchApp
 # - runFlow: signin.yaml
+- tapOn: 
+    text: "Nav myPlaces\nMy Places"
+    label: "Click on My Places"
 - tapOn:
     point: 91%,7%
+    label: "Click on + button"
 # List
-- tapOn: "List
+- tapOn:
+    text: "List
 
     Create from scratch or import from Google maps."
+    label: "Click on List"
 - back
 - tapOn:
     point: 91%,7%
+    label: "Click on + button"
 # To Try
-- tapOn: "To Try
+- tapOn: 
+    text: "To Try
 
     Found somewhere new? Save it to try later!"
+    label: "Click on Been To"
 - back
 - tapOn:
     point: 91%,7%
+    label: "Click on + button"
 # Been To
-- tapOn: "Been To
+- tapOn: 
+    text: "Been To
 
     Mark a place as been & leave a review."
+    label: "Click on To Try"
 - back

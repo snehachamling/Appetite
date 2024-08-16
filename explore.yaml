@@ -2,95 +2,119 @@ appId: com.tj.appetite
 ---
 # - clearState
 - launchApp
-- runFlow: signin.yaml
-- tapOn: "Nav explore\nExplore"
-# Select anytime
-- tapOn: "2 • Today • 7:00 PM"
-- tapOn: "Search anytime"
-# Selecting the guests, time and date.
-- tapOn: "anytime"
-- tapOn: "3" 
-# Selecting date
-- tapOn: "Date\nToday"
-- tapOn:
-    point: "61%,69%"
-# Selecting time
-- tapOn:
-    point: "50%,79%"
-- tapOn:
-    point: "75%,79%"
-- tapOn: "Search"
+# - runFlow: signin.yaml
+- tapOn: 
+    text: "Nav explore\nExplore"
+    label: "Click on Explore"
+# # Select anytime
+# - tapOn: 
+#     text: "2 • Today • 7:00 PM"
+#     label: "Select Date and time"
+# - tapOn: "Search anytime"
+# # Selecting the guests, time and date.
+# - tapOn: "anytime"
+# - tapOn: 
+#     text: "3" 
+#     label: "Enter guest number"
+# # Selecting date
+# - tapOn: 
+#     text: "Date\nToday"
+#     label: "Select Date"
+# - tapOn:
+#     point: "61%,69%"
+#     label: "Enter date"
+# # Selecting time
+# - tapOn:
+#     point: "50%,79%"
+#     label: "Select Time"
+# - tapOn:
+#     point: "75%,79%"
+#     label: "Enter time"
+# - tapOn: "Search"
 # My area
 - tapOn: "my area"
 - tapOn: "Search for location here"
 - inputText: "Soho"
+- tapOn: "England Pharmacy"
+# - tapOn:
+#     point: "41%,22%"
+#     label: "Select Soho"
 - tapOn:
-    point: "50%,22%"
-- tapOn: "Done"
-# Any cuisine
-- tapOn: "any cuisine"
-- tapOn: "Search for cuisine here"
-- inputText: "Seafood"
-- tapOn:
-    point: "15%,24%"
-- eraseText
-- tapOn: "British"
-- scrollUntilVisible:
-    element: "Vegan"
-- tapOn: "Vegan"
-- tapOn: "Dim Sum"
-- tapOn: "Done"
-# Any vibe
-- tapOn: "any vibe"
-- tapOn: "Search for vibe here"
-- inputText: "Chic"
-- tapOn:
-    point: "15%,24%"
-- eraseText
-- tapOn: "Candlelit"
-- scrollUntilVisible:
-    element: "Old School"
-- tapOn: "Done"
-# # View All Screen
-# - tapOn: "See all"
-# - swipe:
-#     direction: DOWN
-# Book restaurant from list view
-- tapOn:
-    point: "50%,66%"
-- tapOn: "Book Now"
-- tapOn:
-    point: "50%,96%" 
-- tapOn:
-    point: "91%,7%"
-- tapOn: "Nav explore\nExplore"
-- tapOn: "Map View"
-- tapOn:
-    point: "71%,72%"
-- tapOn:
-    point: "6%,8%"
+    point: "50%,62%"
+    label: "Done"
+# # Any cuisine
+# - tapOn: "any cuisine"
+# - tapOn: "Search for cuisine here"
+# - inputText: "Seafood"
+# - tapOn:
+#     point: "15%,24%"
+#     label: "Select Seafood"
+# - eraseText
+# - tapOn: "British"
+# - scrollUntilVisible:
+#     element: "Vegan"
+# - tapOn: "Vegan"
+# - tapOn: "Done"
+# # Any vibe
+# - tapOn: "any vibe"
+# - tapOn: "Search for vibe here"
+# - inputText: "Chic"
+# - tapOn:
+#     point: "15%,24%"
+#     label: "Select Chic"
+# - eraseText
+# - tapOn: "Candlelit"
+# - scrollUntilVisible:
+#     element: "Old School"
+# - tapOn: "Done"
+# View All Screen
+- tapOn: "See all"
+# # Book restaurant from list view
+# - tapOn:
+#     point: "50%,66%"
+#     label: "Select time for booking"
+# # - tapOn: "Book Now"
+# # - tapOn:
+# #     point: "50%,96%" 
+# # - tapOn:
+# #     point: "91%,7%"
+# - tapOn: 
+#     text: "Nav explore\nExplore"
+#     label: "Click on Explore"
+# - tapOn: "Map View"
+# - tapOn:
+#     point: "71%,72%"
+#     label: "Click on List View"
+# tapOn:
+#   point: 33%,22%
+#   label: "Click on Search by availability:"
 # Change the dates
 - tapOn:
     point: "50%,13%"
-- tapOn: "2" 
+    label: "Click on Search by availability:"
+- tapOn: 
+    text: "3"
+    label: "Change guest number" 
 # Date
 - tapOn:
     point: "50%,73%"
+    label: "Click on date"
 # Time
 - tapOn:
     point: "50%,79%"
+    label: "Click on Time"
 - tapOn: "Search"
-- tapOn: "Filter"
-- tapOn: "Soho"
-# clear filter
-- tapOn:
-    point: "86%,51%"
-- tapOn: "Nepali"
-- tapOn: "See more..."
-- tapOn: "Seafood"
-# - scrollUntilVisible:
-#     element: "German"
-# - tapOn: "German"
-- tapOn: "Done"
-# - scrollUntilVisible:
-#     direction: DOWN
+# - tapOn: "Filter"
+# - tapOn: "Soho"
+# # clear filter
+# - tapOn:
+#     point: "86%,51%"
+# - tapOn: "Nepali"
+# - tapOn: "See more..."
+# - tapOn: "Seafood"
+# # - scrollUntilVisible:
+# #     element: "German"
+# # - tapOn: "German"
+# - tapOn: "Done"
+# # - scrollUntilVisible:
+# #     direction: DOWN

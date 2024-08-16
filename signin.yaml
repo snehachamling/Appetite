@@ -6,14 +6,21 @@ appId: com.tj.appetite
 - tapOn: "Use Phone Number"
 - tapOn:
     point: 12%,33%
+    label: "Enter Country Code"
 - tapOn:
-    point: 39%,12%    
+    point: 39%,12%
+    label: "Search the country name"    
 - inputText: "Nepal"
-- tapOn: "🇳🇵\nNepal\n+977"
+- tapOn: 
+    text: "🇳🇵\nNepal\n+977"
+    label: "Select Nepal"
 - tapOn:
     point: 40%,33%   
+    label: "Enter phone number"
 - inputText: "9813580350"
 - tapOn: "Next"
 - tapOn: "Enter password"
-- inputText: "Test@1234"
+- inputText: 
+    text: "Test@1234"
+    label: "User password"
 - tapOn: "Sign In"

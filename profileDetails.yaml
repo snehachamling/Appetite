@@ -5,15 +5,19 @@ appId: com.tj.appetite
 # - runFlow: signin.yaml
 - tapOn:
     point: 78%,8%
+    label: "Click on Profile Icon"
 - tapOn:
     point: "93%,7%"
+    label: "Click on three lines icon"
 - tapOn: "Profile Details"
 - tapOn:
     point: "50%,22%"
+    label: "Tap on Full Name"
 - eraseText
 - inputRandomPersonName 
 - tapOn:
     point: "50%,33%"
+    label: "Tap on Username"
 - eraseText
 - inputRandomText
 - tapOn: "Save Changes"
