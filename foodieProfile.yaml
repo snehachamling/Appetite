@@ -1,18 +1,24 @@
 appId: com.tj.appetite
 ---
 # - clearState
-# - launchApp
-# - runFlow: signin.yaml
+- launchApp
+- runFlow: signin.yaml
 - tapOn:
-    point: 78%,8%
+    point: 79%,7%
     label: "Click on Profile Icon"
 - tapOn:
     point: "93%,7%"
     label: "Click on three line icon"
-- tapOn: "Foodie Profile"
-- tapOn: "Burger Buff"
+- tapOn: 
+    text: "Foodie Profile"
+    label: "Click on Foodie Profile"
+- tapOn: 
+    text: "Burger Buff"
+    label: "Click on Burger Buff"
 - assertVisible: "Cannot add more than 4 traits"
-- tapOn: "Tracker\nTab 3 of 4"
+- tapOn: 
+    text: "Tracker\nTab 3 of 4"
+    label: "Click on Tracker"
 - tapOn:
     point: "26%,74%"
     label: "Click on List Created Tracker"

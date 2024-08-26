@@ -9,7 +9,9 @@ appId: com.tj.appetite
 - tapOn:
     point: "93%,7%"
     label: "Click on three lines icon"
-- tapOn: "Profile Details"
+- tapOn: 
+    text: "Profile Details"
+    label: "Click on Profile Details"
 - tapOn:
     point: "50%,22%"
     label: "Tap on Full Name"
@@ -20,4 +22,6 @@ appId: com.tj.appetite
     label: "Tap on Username"
 - eraseText
 - inputRandomText
-- tapOn: "Save Changes"
+- tapOn: 
+    text: "Save Changes"
+    label: "Click on Save Changes"

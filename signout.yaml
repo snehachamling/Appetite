@@ -1,14 +1,20 @@
 appId: com.tj.appetite
 ---
-- clearState
-- launchApp
-- runFlow: signin.yaml
+# - clearState
+# - launchApp
+# - runFlow: signin.yaml
 - tapOn:
     point: "75%,8%"
     label: "Click on Profile Icon"
 - tapOn:
     point: "93%,7%"
     label: "Click on three lines icon"
-- tapOn: "Settings"
-- tapOn: "Logout"
-- tapOn: "Confirm"
+- tapOn: 
+    text: "Settings"
+    label: "Click on Settings"
+- tapOn: 
+    text: "Logout"
+    label: "Click on Logout"
+- tapOn: 
+    text: "Confirm"
+    label: "Click on Confirm"

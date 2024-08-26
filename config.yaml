@@ -1,0 +1,13 @@
+# config.yaml
+appId: com.tj.appetite
+---
+# - clearState
+# - launchApp
+# executionOrder:
+#     # continueOnFailure: false # default is true
+#     flowsOrder:
+#         - signin.yaml
+#         - profileDetails.yaml
+#         - signout.yaml
+flows:
+  - "*"

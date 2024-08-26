@@ -2,8 +2,12 @@ appId: com.tj.appetite
 ---
 - clearState
 - launchApp
-- tapOn: " Sign In"
-- tapOn: "Use Phone Number"
+- tapOn: 
+    text: " Sign In"
+    label: "Click on Sign In"
+- tapOn: 
+    text: "Use Phone Number"
+    label: "Click on Use Phone Number"
 - tapOn:
     point: 12%,33%
     label: "Enter Country Code"
@@ -17,10 +21,18 @@ appId: com.tj.appetite
 - tapOn:
     point: 40%,33%   
     label: "Enter phone number"
-- inputText: "9813580350"
-- tapOn: "Next"
-- tapOn: "Enter password"
+- inputText: 
+    text: "9813580350"
+    label: "Enter phone number"
+- tapOn: 
+    text: "Next"
+    label: "Click on Next"
+- tapOn: 
+    text: "Enter password"
+    label: "Click on password"
 - inputText: 
     text: "Test@1234"
-    label: "User password"
-- tapOn: "Sign In"
+    label: "Enter user password"
+- tapOn: 
+    text: "Sign In"
+    label: "Click on Sign In"

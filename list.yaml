@@ -2,40 +2,82 @@ appId: com.tj.appetite
 ---
 - launchApp
 # - runFlow: signin.yaml
-- tapOn: "Button plus.svg"
-- tapOn: "List"
+- tapOn: 
+    text: "Button plus.svg"
+    label: "Click on + icon"
+- tapOn: 
+    text: "List"
+    label: "Click on List"
 # Import from Google Maps
-- tapOn: "Import from Google Maps"
-- tapOn: "Paste google map link here."
-- inputText: "https://maps.app.goo.gl/dCabFUqjpsdrcR7WA?g_st=ac"
-# - tapOn: "Paste"
-- tapOn: "Import"
+# - tapOn: 
+#     text: "Import from Google Maps"
+#     label: "Click on Import from Google Maps"
+# - tapOn: 
+#     text: "Paste google map link here."
+#     label: "Select input box"
+# - inputText: 
+#     text: "https://maps.app.goo.gl/dCabFUqjpsdrcR7WA?g_st=ac"
+#     label: "Enter google map link"
+# # - tapOn: "Paste"
+# - tapOn: 
+#     text: "Import"
+#     label: "Click on Import"
 
-# # Copy/Paste a list
-# - tapOn: "Copy/Paste a list"
-# - tapOn: "Name of the list"
-# - inputText: "Copy and Paste List"
-# - tapOn: "Paste note text here"
-# - inputText: "Tasneem's Kings Kitchen"
-# - tapOn: "Import"
+# Copy/Paste a list
+# - tapOn: 
+#     text: "Copy/Paste a list"
+#     label: "Click on Copy/Paste a list"
+# - tapOn:
+#     text: "Name of the list"
+#     label: "Click on Name of List"
+# - inputText: 
+#     text: "Copy and Paste List"
+#     label: "Enter list name"
+# - tapOn: 
+#     text: "Paste note text here"
+#     label: "Click on Paste note text"
+# - inputText: 
+#     text: "EVOKE JHAMSIKHEL"
+#     label: "Enter restaurant name"
+# - tapOn: 
+#     text: "Import"
+#     label: "Click on Import"
 
 # # Start from scratch
-# - tapOn: "Start from scratch"
-# - tapOn: "My List #1"
-# - inputText: "New List"
-# - tapOn:
-#     point: "50%,36%"
-# - inputText: "New List Description details"
-# - tapOn: "Continue"
-# # Select restaurants
-# - tapOn:
-#     point: "87%,32%"
-# - tapOn:
-#     point: "87%,52%"
-# - tapOn:
-#     point: "87%,62%"
-# - tapOn:
-#     point: "87%,78%"
-# - tapOn: "Next"
-# - tapOn:
-#     point: "89%,7%"
+- tapOn: 
+    text: "Start from scratch"
+    label: "Click on Start from scratch"
+- tapOn: 
+    text: "My List #1"
+    label: "Click on List Name"
+- inputText: 
+    text: "New List"
+    label: "Enter list name"
+- tapOn:
+    point: "50%,36%"
+    label: "Click on List Description box"
+- inputText: 
+    text: "New List Description details"
+    label: "Enter description"
+- tapOn: 
+    text: "Continue"
+    label: "Click on Continue"
+# Select restaurants
+- tapOn:
+    point: "87%,32%"
+    label: "Select first restaurant"
+- tapOn:
+    point: "87%,52%"
+    label: "Select second restaurant"
+- tapOn:
+    point: "87%,62%"
+    label: "Select third restaurant"
+- tapOn:
+    point: "87%,78%"
+    label: "Select fourth restaurant"
+- tapOn: 
+    text: "Next"
+    label: "Click on Next"
+- tapOn:
+    point: "89%,7%"
+    label: "Click on Finish"
